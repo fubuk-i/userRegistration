@@ -1,0 +1,31 @@
+{
+  "name": "userregistration",
+  "version": "1.0.0",
+  "description": "Simple user registration with Authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fubuki",
+  "license": "ISC",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "app-root-path": "^3.0.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^7.4.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "q": "^1.5.0",
+    "stream-buffers": "^3.0.2",
+    "winston": "^2.4.2",
+    "request": "^2.87.0"
+  }
+}
